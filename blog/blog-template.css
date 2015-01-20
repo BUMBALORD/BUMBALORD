@@ -1,0 +1,67 @@
+body {
+    height: 9000 px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 300px;
+    background-color: orange;
+    position:fixed;
+}
+
+.photo {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+.aboutme {
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+.links {
+    position: relative;
+    left: 50px;
+    top: 30px;
+    background-color: green;
+    height: 400px;
+    width: 200px;
+}
+
+.container {
+    position: absolute;
+    left: 320px;
+}
+
+.header {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+}
+
+.header p {
+    position: relative;
+    top: 20px;
+}
+
+.footer {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: purple;
+    bottom: 0;
+}
+
+.footer p {
+     position: relative;
+     left: 75%;
+     
+}
+}
