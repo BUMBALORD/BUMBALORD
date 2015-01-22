@@ -1,36 +1,13 @@
-abody {
-    height: 9000 px;
+body {
+    height: 100%;
+    background-color: #e8e0a8;
 }
 
 .sidebar {
     height: 100%;
-    width: 300px;
-    background-color: orange;
+    width: 315px;
+    background-color: #66aa7e;
     position:fixed;
-}
-
-.photo {
-    height: 200px;
-    width: 200px;
-    background-color: pink;
-    position: relative;
-    left: 50px;
-    top: 30px;
-}
-
-.aboutme {
-    position: relative;
-    left: 50px;
-    top: 30px;
-}
-
-.links {
-    position: relative;
-    left: 50px;
-    top: 30px;
-    background-color: green;
-    height: 400px;
-    width: 200px;
 }
 
 .container {
@@ -38,29 +15,55 @@ abody {
     left: 320px;
 }
 
-.header {
-    position: relative;
-    height: 100px;
-    width: 100%;
-    background-color: blue;
-    text-align: center;
-}
-
-.header p {
-    position: relative;
-    top: 20px;
-}
 
 .footer {
     position: fixed;
     height: 50px;
     width: 100%;
-    background-color: purple;
+    background-color: #66aa7e;
     bottom: 0;
+    font-size: 1.2em;
 }
 
-.footer p {
-     position: relative;
-     left: 65%;
-     
+
+.photo {
+    height: 200px;
+    width: 200px;
+    background-color: #FFa78f;
+    position: relative;
+    top: 30px;
+    left: 55px;
+    border: 10px solid rgb(232, 224, 168);
 }
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-family: Verdana, serif;
+}
+
+ul {
+    position: relative;
+    text-align: left;
+    font-family: Verdana, serif;
+    font-size: 2em;
+    font-style: bold;
+}
+
+div img {
+    height: 200px;
+    width: 200px;
+}
+
+.footer a {
+    position: relative;
+    left: 75%;
+}
+
+
+
+
+
+
