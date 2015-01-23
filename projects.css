@@ -1,80 +1,90 @@
+
+
 body {
   height: 100%;
-  background-color: #327F77;
+  background-color: #474724;
 }
 
 .sidebar {
     height: 100%;
     width: 315px;
-    background-color: #4ABFB3;
+    background-color: #292914;
     position:fixed;
 }
 
-.header {
-    position: fixed ;
-    height: 100px;
-    width: 100%;
-    background-color: #4ABFB3;
-    text-align: center;
-}
-
-.header p {
-  font-size: 4em;
+.links a {
   position: relative;
-  bottom: 53px;a
-  left: 120px;
-  font-family: Verdana, serif;
+  font-family: Impact, serif;
+  font-size: 2em;
+  top: 80px;
+  color: #E7EFEF;
+  left: 55px;
 }
 
+.intro p {
+  position: relative;
+  text-align: center;
+  top: 18px;
+  color: #E7EFEF;
+  font-size: .90em;
+  margin-left: 10px;
+
+}
 .container {
     position: absolute;
     left: 320px;
 }
 
+.container p {
+  position: relative;
+  text-align: center;
+  top: 18px;
+  color: #E7EFEF;
+  font-size: 1.2em;
+  margin-left: 180px;
+  text-decoration: underline;a
+}
 
 .footer {
     position: fixed;
     height: 50px;
     width: 100%;
-    background-color: #4ABFB3
+    background-color: #292914;
     bottom: 0;
     font-size: 1.2em;
-}
-
-div a {
-  display: inline-block;
-  text-decoration: none;
-  
 }
 
 
 .photo {
   height: 200px;
   width: 200px;
-  background-color: #FFa78f;
   position: relative;
   top: 30px;
   left: 55px;
-  border: 10px solid #19403C;
+  border: 10px solid #666633;
+  border-style: ridge;
 }
 
-h1 {
+h3 {
   text-align: center;
   position: relative;
   top: 10px;
   left: 5px;
-  font-family: Verdana, serif;
-  color: #19403C;
-}
+  font-family: Impact, serif;
+  color:  #E7EFEF;
+  text-decoration: none;
 
+}
+/*
 ul {
   position: relative;
   text-align: left;
-  font-family: Verdana, serif;
+  font-family: serif;
   font-size: 2em;
   font-style: bold;
   color: #63FFEE;
 }
+*/
 
 div img {
   height: 200px;
@@ -83,7 +93,17 @@ div img {
 
 .footer a {
   position: relative;
-  left: 75%;
-  color: #63FFEE;
+    left: 50%;
+    bottom: 7px;
+    color: #E7EFEF;
+    display: inline-block;
+    padding: 20px;
+    font-family: Impact, serif;
+    font-variant: small-caps;
+
 }
 
+div a {
+  display: inline-block;
+  text-decoration: none;
+} 
