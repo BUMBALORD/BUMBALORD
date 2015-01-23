@@ -2,13 +2,13 @@
 
 body {
 	height: 100%;
-	background-color: #e8e0a8;
+	background-color: #327F77;
 }
 
 .sidebar {
     height: 100%;
     width: 315px;
-    background-color: #66aa7e;
+    background-color: #4ABFB3;
     position:fixed;
 }
 
@@ -22,7 +22,7 @@ body {
     position: fixed;
     height: 50px;
     width: 100%;
-    background-color: #66aa7e;
+    background-color: #4ABFB3;
     bottom: 0;
     font-size: 1.2em;
 }
@@ -35,7 +35,7 @@ body {
 	position: relative;
 	top: 30px;
 	left: 55px;
-	border: 10px solid rgb(232, 224, 168);
+	border: 10px solid #19403C;
 }
 
 h1 {
@@ -44,14 +44,16 @@ h1 {
 	top: 10px;
 	left: 5px;
 	font-family: Verdana, serif;
+	color: #19403C;
 }
 
 ul {
 	position: relative;
 	text-align: left;
-	font-family: Verdana, serif;
+	font-family: serif;
 	font-size: 2em;
 	font-style: bold;
+	color: #63FFEE;
 }
 
 div img {
@@ -62,5 +64,11 @@ div img {
 .footer a {
 	position: relative;
 	left: 75%;
+	color: #63FFEE;
 }
 
+div a {
+	display: inline-block;
+	text-decoration: none;
+
+}
