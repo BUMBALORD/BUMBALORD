@@ -42,6 +42,10 @@ body {
     
 }
 
+.blogpic {
+    left: 50%;
+}
+
 .footer {
     position: fixed;
     height: 50px;
