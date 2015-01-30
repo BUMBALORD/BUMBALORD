@@ -36,7 +36,7 @@ body {
     left: 320px;
 }
 
-.container p {
+/*.container p {
   position: relative;
   text-align: center;
   top: 18px;
@@ -45,6 +45,18 @@ body {
   margin-left: 180px;
   text-decoration: underline;a
 }
+*/
+
+.container p a {
+    position: relative;
+    text-align: center;
+    left: 280px;
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: #E7EFEF;
+    font-family: Impact;
+}
+
 
 .footer {
     position: fixed;
