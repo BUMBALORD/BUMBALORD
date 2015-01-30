@@ -35,7 +35,7 @@ body {
 }
 
 
-/*.container p {
+.container p {
     position: relative;
     top: 18px;
     color: #E7EFEF;
@@ -44,9 +44,9 @@ body {
 
     
 }
-*/
 
-.container p a {
+
+/*.container p {
     position: relative;
     text-align: center;
     left: 280px;
@@ -55,7 +55,7 @@ body {
     color: #E7EFEF;
     font-family: Impact;
 }
-
+*/
 
 
 .blogpic {
