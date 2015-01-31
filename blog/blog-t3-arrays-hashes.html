@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="blog-post-template.css"/>
+  <title> David Hallinan's Website </title>
+</head>
+
+
+<html>
+  <body>
+     
+  
+
+    <div class="sidebar">
+      <div class="photo">
+        <img src="https://avatars3.githubusercontent.com/u/10234407?v=3&s=460"/>
+        </img>
+      </div>  
+        
+        <div class="intro">
+              <p> Hi! My name is David Hallinan and I'm a 2015 student at DevBootcamp in San Francisco! This is what it sounds like when Rock Doves Cry!</p>
+        </div>
+       
+        <div class="links">
+          <p> <a href="http://bumbalord.github.io"/> HOME </a> </p>
+          <p> <a href="http://bumbalord.github.io/projects.html"/> PROJECTS </a> </p>
+          <p> <a href="http://bumbalord.github.io/blog/blog-template.html"/> BLOG </a> </p>
+          <p> <a href="http://bumbalord.github.io/about-me.html"/> ABOUT ME </a> </p>
+        </div>
+    </div>
+  
+    <div class="container">
+          
+        <main>
+          <div class="bloghead">
+            <h1> Arrays and Hashes </h1>
+            <h4> Jan 31st, 2015 </h4>
+          </div>
+
+      <section>
+
+        <h3 align=center>
+          <u>Wrong type of Array!</u>
+        </h3 >  
+        <p align=center>
+          <img src="http://upload.wikimedia.org/wikipedia/commons/6/63/USA.NM.VeryLargeArray.02.jpg"/>
+        </p>
+        <p>
+          Arrays in Ruby are a means of keeping track of any number of objects in an organized and easy to use fashion. In a simple way to put it, they are essentially a list of strings or integers, or really anything you want, that can store each element you wish and then be referenced back to when you need. Arrays generally look a lot like this:
+        </p>
+        <h3 align=center>
+          countries = ['America', 'China', 'Turkmenistan']
+        </h3>
+        <p>
+          Each object in the array is then given a number that can reference it later down the line when we want to get the information out of the array. It's as simple as counting to find out what your array element's number is. However, the first object in the array does not start at 1, it starts at 0. So, for the example above, We would have:
+        </p>
+        <h3 align=center>
+          0 (for America), 1 (for China), and 2 (for Turkmenistan)
+        </h3>  
+        <p>
+          If we wanted to call on Turkmenistan within the array, we would simply call the method and place whatever number it is within a bracket like so:
+        </p>
+        <h3 align=center>
+          countries[2]
+        </h3>
+        <br>
+        <h3 align=center>
+          <u>Wrong type of Hash!</u>
+        </h3>
+        
+        <p align=center>
+          <img src="http://www.lemonythyme.com/wp-content/uploads/2013/04/Corned-Beef-Hash2-1024x781.jpg"/>
+        </p>
+        <p>
+          Hashes are a lot like arrays, only they don't have to be in a row, and they don't have to be referenced with a number. They can be referenced by whatever it is you wish you reference them with. This is because they are made up a collection of Keys and Value Pairs that allow you to sort objects within them for easy access later. Hashes look a lot like this, usually:
+        </p> 
+        <h3 align=center>
+          my_hash = {
+                    <p align=center>  "name" => "David" </p>
+                    <p align=center>  "age" => 32 </p>
+                    <p align=center>  "birthplace" => "Oakland" </p>
+                 <p align=center>   }  </p>     
+        </h3>   
+        <p>
+          In this example, the first column is the key, while the second column is the value. "David" is the value for the key "name." This is called "literal notation." Within a hash, you cannot have duplicate keys as they will be overwritten with the newest value assigned to it. To access information inside the hash, we would call it in a similar way to an array, only we would use the key to call it. If we wanted to get "David" out of the hash, we would write:
+        </p>
+        <h3 align=center>
+          my_hash["name"]
+        </h3>
+        <p>
+          We can also call upon hashes with different methods. If the method, "each," speaks to every value in the hash, we could write something like this to have every value returned to us at once:
+        </p>
+        <h3 align=center> my_hash.each do |key, value| </h3>
+        <h3 align=center> puts value </h3>
+        <h3 align=center> end </h3>
+        <p>
+          This would return us every value in the hash, "my_hash," as we've defined the keys and values inside the hash and asked it to return each value to us. In this case, we would get:
+        </p>  
+        <h3 align=center> David </h3>
+        <h3 align=center> 32 </h3>
+        <h3 align=center> Oakland </h3>
+        <p>
+          Satellites and delicious breakfast food, be damned!
+        </p>  
+        <br>
+        <br>
+        <br>
+        <br>
+
+      </section>
+      
+      
+    </main>
+
+    </div>
+
+
+    <div class="footer">
+       <a href="https://www.facebook.com/"> Facebook </a>
+       <a href="https://www.linkedin.com/pub/david-hallinan/8/a32/593"> LinkedIn </a>
+       <a href="https://twitter.com/david_hallinan"> Twitter </a>
+    </div>
+
+
+  </body>
+</html>
