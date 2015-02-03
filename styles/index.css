@@ -35,6 +35,7 @@ body {
 .container {
     position: absolute;
     left: 320px;
+    
 }
 
 .container p h3 {
