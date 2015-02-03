@@ -46,24 +46,31 @@
         <p align=center>
           <img src="http://upload.wikimedia.org/wikipedia/commons/6/63/USA.NM.VeryLargeArray.02.jpg"/>
         </p>
+        <br>
         <p>
           Arrays in Ruby are a means of keeping track of any number of objects in an organized and easy to use fashion. In a simple way to put it, they are essentially a list of strings or integers, or really anything you want, that can store each element you wish and then be referenced back to when you need. Arrays generally look a lot like this:
         </p>
+        <br>
         <p align=center>
           countries = ['America', 'China', 'Turkmenistan']
         </p>
+        <br>
         <p>
           Each object in the array is then given a number that can reference it later down the line when we want to get the information out of the array. It's as simple as counting to find out what your array element's number is. However, the first object in the array does not start at 1, it starts at 0. So, for the example above, We would have:
         </p>
+        <br>
         <p align=center>
           0 (for America), 1 (for China), and 2 (for Turkmenistan)
         </p>  
+        <br>
         <p>
           If we wanted to call on Turkmenistan within the array, we would simply call the method and place whatever number it is within a bracket like so:
         </p>
+        <br>
         <p align=center>
           countries[2]
         </p>
+        <br>
         <br>
         <h3 align=center>
           <u>Wrong type of Hash!</u>
@@ -72,9 +79,11 @@
         <p align=center>
           <img src="http://www.lemonythyme.com/wp-content/uploads/2013/04/Corned-Beef-Hash2-1024x781.jpg"/>
         </p>
+        <br>
         <p>
           Hashes are a lot like arrays, only they don't have to be in a row, and they don't have to be referenced with a number. They can be referenced by whatever it is you wish to reference them with. This is because they are made up a collection of Keys and Value Pairs that allow you to sort objects within them for easy access later. Hashes look a lot like this, usually:
         </p> 
+        <br>
         <p align=center>
           my_hash = {
                     <p align=center>  "name" => "David" </p>
@@ -82,24 +91,31 @@
                     <p align=center>  "birthplace" => "Oakland" </p>
                  <p align=center>   }  </p>     
         </p>   
+        <br>
         <p>
           In this example, the first column is the key, while the second column is the value. "David" is the value for the key "name." This is called "literal notation." Within a hash, you cannot have duplicate keys as they will be overwritten with the newest value assigned to it. To access information inside the hash, we would call it in a similar way to an array, only we would use the key to call it. If we wanted to get "David" out of the hash, we would write:
         </p>
+        <br>
         <p align=center>
           my_hash["name"]
         </p>
+        <br>
         <p>
           We can also call upon hashes with different methods. If the method, "each," speaks to every value in the hash, we could write something like this to have every value returned to us at once:
         </p>
+        <br>
         <p align=center> my_hash.each do |key, value| </p>
         <p align=center> puts value </p>
         <p align=center> end </p>
+        <br>
         <p>
           This would return us every value in the hash, "my_hash," as we've defined the keys and values inside the hash and asked it to return each value to us. In this case, we would get:
         </p>  
+        <br>
         <p align=center> David </p>
         <p align=center> 32 </p>
         <p align=center> Oakland </p>
+        <br>
         <p>
           Satellites and delicious breakfast food, be damned!
         </p>  
