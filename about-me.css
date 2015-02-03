@@ -37,14 +37,14 @@ body {
     left: 320px;
 }
 
-.container p {
+.container h3 {
   position: relative;
   text-align: center;
   top: 18px;
   color: #E7EFEF;
   font-size: 1.2em;
   margin-left: 180px;
-  text-decoration: underline;a
+  text-decoration: underline;
 }
 
 .footer {
