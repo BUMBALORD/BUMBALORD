@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="blog-post-template.css"/>
+  <title> David Hallinan's Website </title>
+</head>
+
+
+<html>
+  <body>
+     
+  
+
+    <div class="sidebar">
+      <div class="photo">
+        <img src="https://avatars3.githubusercontent.com/u/10234407?v=3&s=460"/>
+        </img>
+      </div>  
+        
+        <div class="intro">
+              <p> Hi! My name is David Hallinan and I'm a 2015 student at DevBootcamp in San Francisco! This is what it sounds like when Rock Doves Cry!</p>
+        </div>
+       
+        <div class="links">
+          <p> <a href="http://bumbalord.github.io"/> HOME </a> </p>
+          <p> <a href="http://bumbalord.github.io/projects.html"/> PROJECTS </a> </p>
+          <p> <a href="http://bumbalord.github.io/blog/blog-template.html"/> BLOG </a> </p>
+          <p> <a href="http://bumbalord.github.io/about-me.html"/> ABOUT ME </a> </p>
+        </div>
+    </div>
+  
+    <div class="container">
+          
+        <main>
+          <div class="bloghead">
+            <h1> Enumerable Method - .count </h1>
+            <h4> Feb 6th, 2015 </h4>
+          </div>
+
+      <section>
+
+      <h4 align=center>
+          <font color="#FF4719">You've been late with my methods 3 times! I've been counting!"</font>
+        </h4>  
+        <p align=center> 
+          <img src="http://www.tokutek.com/wp-content/uploads/2014/02/the-Count.jpg"> 
+        </p>
+        <br>
+        <p>
+          For this technical blog, I have chosen to focus on the method "count." Ruby-docs defines count as follows:
+        </p> 
+        <br>
+        <p>
+          "Returns the number of items in enum through enumeration. If an argument is given, the number of items in enum that are equal to item are counted. If a block is given, it counts the number of elements yielding a true value." 
+        </p>
+        <br>
+        <p>
+          This means that "count" can enumerate over what we tell it to, and give us back a handful of different answers based on what we tell it to do. For example, let's say we have a random array of numbers:
+        </p>  
+        <br>
+        
+          <h4 align=center><font color="#E6E65C"> my_array = [1,2,3,4,4,4,5,6,7,8,8,9,10]</font></h4>
+        
+        <br>
+        <p>
+          If we were to call "count" on our array directly, we would recieve the number of seperate integers within our array, like so:
+        </p>  
+        <br>
+        <h4 align=center>
+          <font color="#E6E65C">my_array.count</font> 
+        </h4>
+        <h4 align=center>
+          <font color="#E6E65C">#=> would return us <font color="#FF4719">13</font>, as there are <font color="#FF4719">13</font> seperate integers within the array.</font>
+        </h4>
+        <br>
+        <p>
+          Simple, right? However, we can use "count" to get a lot more info than that out of our sample array. We can feed count an argument, and it will seek out that argument within the array. By seek out, I mean that count can go through each integer within the array and identify the one that we are specifically looking for, and tell us how many times it occurs. For example:
+        </p>
+        <br>
+        <h4 align=center>
+          <font color="#E6E65C">my_array.count(1)<font>    
+        </h4>
+        <h4 align=center>
+          <font color="#E6E65C">#=> would return us <font color="#FF4719">1</font>, as there is only a single <font color="#FF4719">1</font> in the array</font>
+        </h4>
+        <h4 align=center>
+          <font color="#E6E65C">my_array.count(4)</font>
+        </h4>
+        <h4 align=center>
+            <font color="#E6E65C">#=> would return us <font color="#FF4719">3</font>, as there are <font color="#FF4719">3</font> seperate <font color="#FF4719">4</font>'s in the array.</font>
+        </h4>
+        <br>
+        <p>
+          We can also feed count a block of code and have it iterate over the array with whatever we feed it. This can be used for getting more complex data out of our array, instead of writing many more lines of code. If we wanted to know how many of our integers within our array was divisible by 2, we would simply write:
+        </p>
+        <br>
+        <h4 align=center>
+          <font color="#E6E65C"> my_array.count { |x| x%2 == 0}</font>
+        </h4>
+        <h4 align=center>
+          <font color="#E6E65C"> #=> would return <font color="#FF4719">8</font>, as there are <font color="#FF4719">8</font> separate integers within our array that can divided by <font color="#FF4719">2</font> evenly. </font>
+        </h4>
+        <br>
+
+        <p> These are just a few ways that we can use "count" as an enumerable method. We could feed it multiple arguments, or have it do any range of arithmatic within the block of code we feed it. While simple to use, "count" is a very powerful method that has many uses in Ruby.
+        </p>  
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+      </section>
+      
+      
+    </main>
+
+    </div>
+
+
+    <div class="footer">
+       <a href="https://www.facebook.com/"> Facebook </a>
+       <a href="https://www.linkedin.com/pub/david-hallinan/8/a32/593"> LinkedIn </a>
+       <a href="https://twitter.com/david_hallinan"> Twitter </a>
+    </div>
+
+
+  </body>
+</html>
