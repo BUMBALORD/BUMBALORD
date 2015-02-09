@@ -143,3 +143,7 @@ div a {
 u {
     color: #E6E65C;
 }
+
+a:hover {
+    color: #E0E066;
+}

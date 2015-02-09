@@ -109,3 +109,7 @@ div a {
   display: inline-block;
   text-decoration: none;
 } 
+
+a:hover {
+    color: #E0E066;
+}
