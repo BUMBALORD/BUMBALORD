@@ -70,6 +70,7 @@ body {
     background-color: #292914;
     bottom: 0;
     font-size: 1.2em;
+    left: 300px;
 }
 
 
@@ -111,7 +112,7 @@ div img {
 
 .footer a {
     position: relative;
-    left: 50%;
+    left: 30%;
     bottom: 7px;
     color: #E7EFEF;
     display: inline-block;

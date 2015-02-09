@@ -54,6 +54,7 @@ body {
     background-color: #292914;
     bottom: 0;
     font-size: 1.2em;
+    left: 300px;
 }
 
 
@@ -95,13 +96,13 @@ div img {
 
 .footer a {
   position: relative;
-    left: 50%;
-    bottom: 7px;
-    color: #E7EFEF;
-    display: inline-block;
-    padding: 20px;
-    font-family: Impact, serif;
-    font-variant: small-caps;
+  left: 30%;
+  bottom: 7px;
+  color: #E7EFEF;
+  display: inline-block;
+  padding: 20px;
+  font-family: Impact, serif;
+  font-variant: small-caps;
 
 }
 
