@@ -57,6 +57,10 @@ body {
     font-family: Impact;
 }
 
+.container p a:hover {
+    color: #E0E066;
+
+}
 
 .footer {
     position: fixed;
