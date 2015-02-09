@@ -2,7 +2,7 @@
 
 body {
   height: 100%;
-  background-color: #474724;
+  background-color: #000000;
 }
 
 .sidebar {
@@ -38,22 +38,19 @@ body {
     position: absolute;
     left: 320px;
 }
-
-/*.container p {
+.container img {
   position: relative;
-  text-align: center;
-  top: 18px;
-  color: #E7EFEF;
-  font-size: 1.2em;
-  margin-left: 180px;
-  text-decoration: underline;a
+  left: 20px;
+  bottom: 295px;
+
 }
-*/
+
+
 
 .container p a {
     position: relative;
-    text-align: center;
-    left: 280px;
+    top: -325px;
+    left: -150px;
     font-size: 1.5em;
     text-decoration: underline;
     color: #E7EFEF;
