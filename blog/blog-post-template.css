@@ -20,15 +20,17 @@ body {
 }
 
 .intro p {
-    position: relative;
-    text-align: center;
-    top: 18px;
-    color: #E7EFEF;
-    font-size: .9em;
-    margin-left: 10px;
-    padding: 20px;
-    font-family: Impact;
-    
+  position: relative;
+  text-align: center;
+  top: 20px;
+  font-size: 1.1em;
+  margin-left: 10px;
+  padding: 10px;
+  color: #E7EFEF;
+  font-family: Impact, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
 }
 .container {
     position: absolute;
