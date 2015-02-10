@@ -26,8 +26,8 @@ body {
   font-size: 1.1em;
   margin-left: 10px;
   padding: 10px;
-  color: #E7EFEF;
-  font-family: Impact, sans-serif;
+  color: #DFDFE9;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-style: normal;
 
@@ -41,6 +41,7 @@ body {
     position: relative;
     left: 20px;
     bottom: 295px;
+    
 
 }
 
@@ -62,7 +63,7 @@ body {
     left: 20px;
     font-size: 1.8em;
     color: #B2CCCC;
-    font-family: source-sans-pro, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-style: normal;
 }
@@ -124,15 +125,15 @@ div img {
 }
 
 .footer a {
-    position: relative;
-    left: 30%;
-    bottom: 7px;
-    color: #E7EFEF;
+  position: relative;
+    left: 23%;
+    bottom: 15px;
+    color: #DFDFE9;
     display: inline-block;
     padding: 20px;
-    font-family: Impact, serif;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
     font-variant: small-caps;
-
 }
 
 div a {

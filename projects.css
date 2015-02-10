@@ -28,11 +28,11 @@ body {
   font-size: 1.1em;
   margin-left: 10px;
   padding: 10px;
-  color: #E7EFEF;
-  font-family: Impact, sans-serif;
+  color: #DFDFE9;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-style: normal;
-  
+
 }
 .container {
     position: absolute;
@@ -111,14 +111,14 @@ div img {
 
 .footer a {
   position: relative;
-    left: 30%;
-    bottom: 7px;
-    color: #E7EFEF;
+    left: 23%;
+    bottom: 15px;
+    color: #DFDFE9;
     display: inline-block;
     padding: 20px;
-    font-family: Impact, serif;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
     font-variant: small-caps;
-
 }
 
 div a {
