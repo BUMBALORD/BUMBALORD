@@ -21,17 +21,12 @@ body {
 	left: 55px;
 }
 
-.intro p {
+.intro img {
   position: relative;
-  text-align: center;
-  top: 20px;
-  font-size: 1.1em;
-  margin-left: 10px;
-  padding: 10px;
-  color: #DFDFE9;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
-  font-style: normal;
+  right: 42px;
+  top: 50px;
+
+  
 
 }
 .container {
@@ -46,6 +41,14 @@ body {
 	bottom: 295px;
 
 }
+
+#mainpic {
+	position: relative;
+	left: 100px;
+	top: 200px;
+
+}
+
 
 .footer {
     position: fixed;
