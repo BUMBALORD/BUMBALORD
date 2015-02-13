@@ -43,6 +43,14 @@ body {
 
 }
 
+.container #logo img {
+  position: relative;
+  left: 30%;
+  top: -100px;
+  
+
+} 
+
 #mainpic {
   position: relative;
   left:50px;
