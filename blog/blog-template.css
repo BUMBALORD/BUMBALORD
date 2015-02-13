@@ -123,7 +123,7 @@ div img {
 
 .footer a {
     position: relative;
-    left: 45%;
+    left: 23%;
     bottom: 13px;
     color: #DFDFE9;
     display: inline-block;
@@ -131,7 +131,9 @@ div img {
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
     font-variant: small-caps;
-    text-shadow: 1px 1px 1px #000000
+    text-shadow: 4px 7px 2px #000000
+
+
 
 }
 
