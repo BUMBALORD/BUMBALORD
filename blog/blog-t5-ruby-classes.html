@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="blog-post-template.css"/>
+  <title> David Hallinan's Website </title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
+
+</head>
+
+
+<html>
+  <body>
+     
+  
+
+    <div class="sidebar">
+      <div class="photo">
+        <img src="http://distilleryimage4.ak.instagram.com/57868c680b9c11e3855922000a9e0723_7.jpg"/>
+        </img>
+      </div>  
+        
+        <div class="intro">
+              <img src="http://i.imgur.com/xX6h70h.jpg"? style="width:400px;height:123px">
+        </div>
+       
+        <div class="links">
+          <p> <a href="http://bumbalord.github.io"/> HOME </a> </p>
+          <p> <a href="http://bumbalord.github.io/projects.html"/> PROJECTS </a> </p>
+          <p> <a href="http://bumbalord.github.io/blog/blog-template.html"/> BLOG </a> </p>
+          <p> <a href="http://bumbalord.github.io/about-me.html"/> ABOUT ME </a> </p>
+        </div>
+    </div>
+  
+    <div class="container">
+        <div id="background">
+        <img src="http://i.imgur.com/1a5Srdo.jpg"? style="width:600px;height:360px">  
+        </div>
+        <main>
+          <div class="bloghead">
+            <h1 align=center> Ruby Classes </h1>
+            <h4 align=center> Feb 13th, 2015 </h4>
+          </div>
+
+      <section>
+
+          
+        <p align=center>
+          Class structure outside of Ruby...
+        </p>  
+        <p align=center> 
+        <img src="http://i.imgur.com/xmq1VQM.jpg" style="width:590px;height:287px">
+        </p>
+        <br>
+        <p>
+          Classes in Ruby are incredibly helpful at conveying information to multiple objects in a time-saving manner. If we wanted to pass information to 10 different objects, we could write out each descriptive line of code for each object, or we could create a class that passes inherited data down through a series of methods and objects. 
+        </p>
+        <p>
+          For instance, let's say we're really big Community fans. (The TV show. Not, like, the literal idea of humans working and living together.) We might want to classify each character in the show without having to detail out each character's traits and attributes. This is where classes can help us. For instance, we could write...
+        </p>  
+        <p align=center>
+          <img src="http://i.imgur.com/qfdKUdM.jpg" style="width:689px;height:256px">
+        </p>
+
+        <p>
+          Our method "initialize" is what we define in order to pass the traits of our class on to our new class objects that we create. So, by defining out Gender, Role and Quote in the method with our attr_reader line, we can define the traits of our new objects by writing them in the arguments when we create the new class objects. The "@" sign lines we use are called "Instance Variables." What they allow us to do is to pass on the information of the class objects down to methods we create within the class structure. For instance:
+        </p>  
+        <p align=center>
+         <img src="http://i.imgur.com/TAj32bV.jpg" style="width:795px;height:473px">
+        </p>
+        <p>
+          By calling our method "role_and_line" on our characters we've created inside the Community class, we can take their assigned information and have each of them show us their traits individually. Even though we've only used one line of code for both characters in the method, their stored info can be individually accessed and delivered to us with the "puts." This is only an example with two characters, but we could fill up the class with as many characters(class objects) as we want. We could also define as many methods as we wanted within our class, and as long as we've created instance variables in our initialize method, every method under the initialize method can use them to call on our stored class object information.
+        </p> 
+        <br>
+        <br>
+        <br>
+        <br>
+      
+      
+
+      </section>
+      
+      
+    </main>
+
+    </div>
+
+
+    <div class="footer">
+       <a href="https://www.facebook.com/"> Facebook </a>
+       <a href="https://www.linkedin.com/pub/david-hallinan/8/a32/593"> LinkedIn </a>
+       <a href="https://twitter.com/david_hallinan"> Twitter </a>
+    </div>
+
+
+  </body>
+</html>
