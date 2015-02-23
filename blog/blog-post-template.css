@@ -72,6 +72,12 @@ section p {
 
 }
 
+section p a {
+    color: #437585;
+
+}
+
+
 .blogpic {
     left: 50%;
 }
