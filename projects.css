@@ -51,7 +51,7 @@ body {
 .container p a {
     position: relative;
     top: -325px;
-    left: -150px;
+    left: 20px;
     font-size: 1.5em;
     text-decoration: underline;
     color: #E7EFEF;

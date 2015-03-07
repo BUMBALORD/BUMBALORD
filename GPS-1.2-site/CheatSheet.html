@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ruby Cheat Sheet</title>
+  <meta charset="UTF-8">
+  <!--meta http-equiv="refresh" content="3"-->
+  <link rel="stylesheet" type="text/css" href="CheatSheet.css">
+</head>
+<body>
+<h1> Ruby Cheat Sheet </h1>
+  <p>David Hanesana & David Hallinan</p>
+    <div id='cheatSheet'>
+      <h2> Ruby: Strings & Integers </h2>
+        <ul>
+          <li> String examples: "Hello World!", "12345", "Ruby is awesome!"  </li>
+          <li> Integer examples: 1, 2, 3, 100, 1000000  </li>
+          <li> String Methods: </li>
+            <ul>
+              <li>"hello".upcase ===> "HELLO" </li>
+              <li>"HELLO".downcase ===> "hello" </li>
+              <li>"hello".capitalize ===> "Hello" </li>
+            </ul>
+          <li> Integer Methods: </li>
+            <ul>
+              <li> 1.odd? ===> true </li>
+              <li> 2.odd? ===> false </li>
+              <li> 14.even? ===> true </li>
+            </ul>
+        </ul>
+      <h2> Arrays & Hashes </h2>
+        <ul>
+          <li> Array: [] </li>
+          <li> Hash: {} </li>
+          <li> Size Method: </li>
+            <ul>
+              <li> [1, 2, 3, 4].size ===> 4 </li>
+              <li> { one: 1, two: 2, three: 3, four: 4 }.size ===> 4 </li>
+            </ul>
+          <li> Has/Include Method:</li>
+            <ul>
+              <li> [1, 2, 3, 4].include?(4) ===> true</li>
+              <li> { one: 1, two: 2, three: 3, four: 4 }.has_key?(:one) ===> true </li>
+            </ul>
+          <li> Fetching Values/Elements: </li>
+          <ul>
+            <li> Fetching Array Elements: </li>
+            <li> Students = ['David', 'Emily']</li>
+            <li> Students[0] ===> 'David'</li>
+            <li> Fetching Hash Values: </li>
+            <li> Students = { 1 => 'David', 2 => 'Emily' } </li>
+            <li> Students[1] ===> 'David' </li>
+          </ul>
+        </ul>
+    </div>
+</body>
+</html>

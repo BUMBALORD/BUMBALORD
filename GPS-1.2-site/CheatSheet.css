@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+#cheatSheet {
+    background-image: url("http://timvandevall.com/wp-content/uploads/2013/10/Printable-Notebook-Paper-01.jpg");
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
